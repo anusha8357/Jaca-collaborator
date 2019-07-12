@@ -1,0 +1,44 @@
+
+Object Oriented Programming Features
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+1. Inheritance( Parent and child class) --Keyword = extend
+2. Encapsulation = Hide the data
+3. Abstraction = keep the common values in one class
+4. Polymorphism = you can create multiple implementation of single values..
+
+Inheritance (Parent and child class --Keyword = extend
+
+Test.
+1. Demo class (main)
+
+1.Animal class
+-int age;
+-int runSpeed;
+-String name;
+
+--Method
+-move(void)
+
+--Child class 1. Cat 2. Dog
+reuse the method and variable from super class..
+
+Polymorphism_Intro
+1. Dynamic binding( method overide)
+2. Static binding(method overload)
+
+Abstraction_Intro
+
+- An abstract class has no use until unless it is extended by some other class.
+- If you declare an abstract method in a class then you must declare the class abstract as well. you cant have abstract method in concrete class.
+  Its vice versa is not always true. if a class is not having any abstract method then also it can be marked as abstract.
+- it can have non- abstract method (concrete) as well.
+
+Some basics and examples of abstract method.
+1) Abstract body has no body.
+2) Always ends the declaration with semicolon;
+3) it must be overridden, an abstract class must be extended and in a same way abstract method must be overridden.
+4) a class has to be declare abstract to have abstract methods.

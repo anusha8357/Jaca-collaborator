@@ -1,0 +1,37 @@
+
+1. For loop
+2. for each loop
+3. while loop
+4. do while loop
+
+1. for loop
+    for (init variable; boolean expression; update){
+        statement ;
+        }
+
+        -Step One.. will initialization of varaibles .
+        -Step Two.. check the boolean condition
+        -Step Three.. update or increase loop counter
+
+2. For Each Loop
+
+-Only when you want loop an array..
+for(type of var: name of array obj){
+    statement..
+}
+
+3. While Loop
+
+if the boolean expression is true than loop will continue..
+
+while(boolean expression){
+    statement.
+}
+
+4. do...While Loop
+
+-- this loop will always execute at least one time..
+--body of code first and than check the consition..
+do{
+
+}while(boolean expression is true;
